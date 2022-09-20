@@ -1,9 +1,14 @@
-h1 {
+h1,h3,body {
     text-align: center;
+  }
+  li{
+    display: inline-block;
   }
 
   .first {
     background-color: rgb(235, 200, 84);
+    display: block;
+    margin-left: 45%;
     font-size: 20px;
     height: 50px;
     text-align: center;
@@ -16,6 +21,8 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
+    display: inline-block;
+    
   }
 
   .third {
@@ -24,4 +31,6 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
+    display: inline-block;
+    
   }
