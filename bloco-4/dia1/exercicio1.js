@@ -1,7 +1,7 @@
-const myName = 'TiagoTK';
-const birthCity = 'Rio de Janeiro';
-let birthYear = 1985;
+const base = 5;
+const heigth = 8;
+const area = base * heigth;
 
-console.log(myName);
-console.log(birthCity);
-console.log(birthYear);
+const perimeter = base + altura;
+
+console.log(area);
