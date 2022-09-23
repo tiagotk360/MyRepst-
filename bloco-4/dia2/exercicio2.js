@@ -5,7 +5,8 @@ Some todos os valores contidos no array e imprima o resultado;
 Calcule e imprima a média aritmética dos valores contidos no array;
 
 A média aritmética é o resultado da soma de todos os elementos dividido pelo número total de elementos.
-Com base no código que acabou de gerar, faça com que, caso o valor final seja maior que 20, imprima a mensagem: “valor maior que 20”. Caso não seja, imprima a mensagem: “valor menor ou igual a 20”;
+Com base no código que acabou de gerar, faça com que, caso o valor final seja maior que 20, imprima
+ a mensagem: “valor maior que 20”. Caso não seja, imprima a mensagem: “valor menor ou igual a 20”;
 
 Utilizando for, descubra qual o maior valor contido no array e imprima-o;
 
@@ -37,8 +38,15 @@ console.log(soma);*/
 
 let  soma = 0;
 let numeroDoArray = 10;
-
+let mensagem;
 for (let index = 0; index < numbers.length; index++) {
-     soma = soma + numbers[index];
+     soma = soma + numbers[index]/ numeroDoArray;
+     if(soma > 20){
+        mensagem = 'valor maior que 20'
+    
+     } else{
+        mensagem = 'valor menor ou igual a 20'
+     }
 }
-console.log(soma / numeroDoArray);
+console.log(mensagem)
+
